@@ -1,0 +1,433 @@
+.homeContainer{
+    
+}
+
+
+.header1{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    left: 0px;
+}
+.homeImage{
+    width: 40px;
+    left: 30px;
+}
+.webName{
+    font-size: 25px;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    left: 75px;
+    display: flex;
+    align-self: center;
+    color: white;
+
+}
+.login{
+    position: absolute;
+    display: flex;
+    right: 30px;
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+    justify-content: center;
+}
+.login:hover{
+    border: 1px white solid;
+}
+.signup{
+    position: absolute;
+    display: flex;
+    right: 100px;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    justify-content: center;
+}
+.signup:hover {
+    border: 1px white solid;
+}
+.navBar{
+    font-size: 20px;
+    width: 200px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    height: 100%;
+}
+
+.navBar:hover{
+    border: 1px solid green;
+    background-color: rgb(19, 61, 19);
+}
+.webName2 {
+    font-size: 40px;
+    font-family: "Delius", cursive;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 5px;
+}
+
+
+.header2{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+.welcomeSentence{
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.welcomeSentence .bold{
+    color: green;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+}
+.welcomeImage{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0px;
+    padding: 0%;
+}
+.imageContainer{
+    
+    margin-bottom: 0px;
+    display: flex;
+}
+.cardContainer{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+}
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d ;
+    transition: all 0.5s ease;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color:white;
+    color: green;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+        border: solid 2px green;
+    
+}
+.arzImage{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    margin-top: 5px;
+    
+}
+.back1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+}
+.back1 .backInfo .backBold{
+    width: 100%;
+        font-size: 20px;
+}
+.back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    text-align: left;
+    font-size: 15px;
+        padding: 10px;
+}
+.back2 .backInfo .backBold {
+    width: 100%;
+        font-size: 20px;
+}
+.back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    text-align: left;
+    font-size: 15px;
+        padding: 10px;
+}
+.back3 .backInfo .backBold {
+width: 100%;
+    font-size: 20px;
+}
+
+.back4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    text-align: left;
+    font-size: 15px;
+        padding: 10px;
+}
+.back4 .backInfo .backBold {
+    width: 100%;
+    font-size: 20px;
+}
+
+.back1Hover{
+    transform: rotateY(180deg);
+}
+.homesearchContainer{
+    background-color: red; 
+    width: 100%;
+    font-size: 30px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+.searchBar{
+   width: 10%;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px red;
+    text-align: left;
+    padding-left: 10px;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.searchIcon{
+    width: 25px;
+}
+.searchBar::placeholder{
+    font-size: 20px;
+}
+.searchBar:hover{
+    border:solid 1px white;
+}
+.buttonContainer{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 120px;
+    
+}
+.button1{
+    width: 300px;
+    height: 40px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    color: green;
+    font-size: 20px;
+    margin: 10px;
+    border: solid 2px green;
+}
+.button1:hover{
+    letter-spacing: 2px;
+    transition: 0.5s all ease;
+    background-color: green;
+    border: white solid 2px;
+    color: white;
+}
+.bodyContainer{
+    height: 1200px;
+    width: 90%;
+    margin-top: 80px;
+}
+.part1{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    box-shadow: 10px 10px 5px red;
+    
+    
+}
+.imagePart1{
+    position: absolute;
+    left: 0px;
+    width: 30%;
+    height: 350px;
+}
+.titlePart1{
+    position: absolute;
+    margin-left: 30%;
+    width: 70%;
+    border-bottom: 2px inset red;
+    box-shadow: 2px 2px 2px red;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: green;
+    
+}
+.contentPart1{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 35%;
+    margin-right: 5%;
+    width: 60%;
+}
+.part2 {
+    position: absolute;
+    margin-top: 420px;
+    width: 100%;
+    height: 350px;
+    box-shadow: 10px 10px 5px red;
+}
+
+.imagePart2 {
+    position: absolute;
+    left: 0px;
+    width: 30%;
+    height: 350px;
+}
+.titlePart2 {
+    position: absolute;
+    margin-left: 30%;
+    width: 70%;
+    font-weight: bold;
+    font-size: 40px;    
+    border-bottom: 2px inset red;
+        box-shadow: 2px 2px 2px red;
+        font-family: "Kanit", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: green;
+}
+.contentPart2 {
+        position: absolute;
+        font-size: 25px;
+        margin-top: 100px;
+        margin-left: 35%;
+            margin-right: 5%;
+            width: 60%;
+}
+.part3 {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    box-shadow: 10px 10px 5px red;
+    margin-top: 840px;
+}
+.imagePart3 {
+    position: absolute;
+    left: 0px;
+    width: 30%;
+    height: 350px;
+}
+
+.titlePart3 {
+    position: absolute;
+    margin-left: 30%;
+    width: 70%;
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 2px inset red;
+    box-shadow: 2px 2px 2px red;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: green;
+}
+.contentPart3 {
+        position: absolute;
+        font-size: 25px;
+        margin-top: 100px;
+        margin-left: 35%;
+            margin-right: 5%;
+            width: 60%;
+}
+.featuresContainer{
+    max-width: 90%;
+    height: 600px;
+    background-color: aliceblue;
+    margin-left: 5%;
+    margin-top: 50px;
+    
+}
+.feature{
+   display: inline-block;
+   max-width: 700px;
+   margin-left: 30px;
+   margin-right: 30px;
+   height: 50px;
+   padding: 50px;
+   padding-top: 70px;
+    
+    
+}
+.featureImage{
+    width: 50px;
+    position: absolute;
+    margin-left: 270px;
+}
+.featureTitle{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.featureContent{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 0px;
+    
+}

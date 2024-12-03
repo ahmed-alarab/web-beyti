@@ -1,0 +1,125 @@
+.postListingMain{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(197, 41, 41);
+}
+
+.postListingMainTitle{
+    margin-left: 20%;
+    width: 60%;
+    text-align: left;
+    font-size: 40px;
+    margin-top: 150px;
+    font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    color: white;
+}
+.postListingBedrooms,
+.postListingPropertyType {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.postListingContainer{
+    border: solid white 5px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px white;
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+    position: relative;
+}
+.postListingForm{
+    position:absolute;
+    top: 40px;
+    text-align: left;
+    height: 100%;
+    width: 50%;
+    left: 50px;
+    
+}
+.postListingInputs{
+    width: 60%;
+}
+.postListingTitle{
+    width: 100%;
+    height: 30px;
+border-radius: 15px;
+margin-bottom: 20px;
+padding-left: 20px;
+font-size: 18px;
+}
+.postListingDescription{
+    width: 100%;
+        height: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.postListingLocation{
+    width: 100%;
+        height: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.postListingPrice{
+    width: 100%;
+        height: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+.postListingImage{
+    width: 100%;
+        height: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.postListingButton{
+    width: 30%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 15%;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.postListingButton:hover{
+    background-color: rgb(197, 41, 41);
+    color: white;
+    font-weight: bold;
+    border: white 2px solid;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px white;
+}
+.postListingInfo{
+    position: absolute;
+    top: 40px;
+    right:50px;
+    width: 40%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.postListingInfoText{
+    text-align: left;
+    font-size: 15px;
+}

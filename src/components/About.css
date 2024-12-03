@@ -1,0 +1,84 @@
+.aboutContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.topAbout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 400px;
+    background-color: gray;
+    
+}
+.aboutImage{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.aboutTitle{
+    font-size: 100px;
+    justify-content: center;
+    text-align:center ;
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 230px);
+    font-family: "Kanit", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+.aboutSentence{
+    position: absolute;
+    left: calc(50% - 400px);
+    top: 300px;
+    font-size: 25px;
+    width: 40%;
+    font-weight: 400;
+    color: white;
+
+}
+.bodyAbout{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+.infoAbout{
+    position: relative;
+    margin-left: 10%;
+    width: 30%;
+    margin-top: 450px;
+}
+.infoTitle{
+    font-size: 40px;
+    text-align: left;
+    color: gray;
+}
+.infoParagraph{
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: left;
+}
+.profile{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    margin-right: 10%;
+}
+.profileName{
+    font-size: 40px;
+}
+.profileInfo{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.profileImage{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
